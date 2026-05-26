@@ -20,7 +20,7 @@ enabled = true
 #bucket_name = ""		#r2对象存储桶的名字
 
 [[d1_databases]]
-binding = "d1"
+binding = "db"
 database_name = "cloud-mail-db"
 database_id = "53a4e12e-60e9-4ad4-b09c-c2c7e683efcf"
 
