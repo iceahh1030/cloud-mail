@@ -19,6 +19,20 @@ enabled = true
 #binding = "r2"			#r2对象存储绑定名默认不可修改
 #bucket_name = ""		#r2对象存储桶的名字
 
+[[d1_databases]]
+binding = "d1"
+database_name = "cloud-mail-db"
+database_id = "53a4e12e-60e9-4ad4-b09c-c2c7e683efcf"
+
+[[kv_namespaces]]
+binding = "kv"
+id = "abfe2af0b3f14b3298d159c964f08c6a"
+
+[[r2_buckets]]
+binding = "r2"
+bucket_name = "cloud-mail-r2"
+
+
 #[[send_email]]
 #name = "email"			#CF发件, 配置后优先使用
 
